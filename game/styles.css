@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+BODY {
+	background: navy;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.t {
+	height: auto;
+	width: 600px;
+	/* background: #000; */
+	border: 50px double;
+	padding: 1px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.p {
+	font-size: 70px;
+	height: 100px;
+	width: 197px;
+	background: grey;
+	margin: 1px;
+}
+.win {
+	height: 320px;
+	width: 400px;
+	background: #000;
+}
+#re {
+	position: absolute;
+	bottom: 15%;
+	height: 40px;
+	width: 120px;
+	background: white;
+	border: 3px solid black;
+}
+#hu {
+	position: absolute;
+	top: 10%;
+	font-size: 3em;
+	color: WHITE;
+}
